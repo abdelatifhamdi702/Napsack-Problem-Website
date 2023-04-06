@@ -1,0 +1,46 @@
+<body>
+  <head>
+    <title>The Knapsack Problem</title>
+    <link rel="stylesheet" href="./css/RO.css" />
+    <script src="jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+  <div id="app">
+    <div class="nine">
+      <h1>The Knapsack Problem Tool<span>Operational Research</span></h1>
+    </div>
+    <label>W = </label><input class="form-control" id="W" type="number" value="0" /><label>N = </label
+    ><input class="form-control" id="N" type="number" value="0"/><button id="generate">Generate</button>
+    <br />    <br />
+    <table id="objectsTable">
+      <tr>
+        <th>Objects</th>
+        <th>Wi</th>
+        <th>Ci</th>
+      </tr>
+      <tr>
+        <td><input class="form-control" style="width: 100%;" value="1" /></td>
+        <td><input class="form-control" style="width: 100%;" value="1" type="number" /></td>
+        <td><input class="form-control" style="width: 100%;" value="1" type="number"/></td>
+      </tr>
+      <tr>
+        <td><input class="form-control" style="width: 100%;" value="2" /></td>
+        <td><input class="form-control" style="width: 100%;" value="2" type="number"/></td>
+        <td><input class="form-control" style="width: 100%;" value="2" type="number"/></td>
+      </tr>
+      <tr>
+        <td><input class="form-control" style="width: 100%;" value="3" /></td>
+        <td><input class="form-control" style="width: 100%;" value="3" type="number"/></td>
+        <td><input class="form-control" style="width: 100%;" value="3" type="number"/></td>
+      </tr>
+    </table>
+    <br /><div style="text-align:center;">
+    <button id="solve" >Solve the problem</button>
+    <div id="result" style="text-align:center; margin-top: 20px;"></div>
+  </div>
+  </div>
+  </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/RO.js"></script>
+  </body>
+</html>
